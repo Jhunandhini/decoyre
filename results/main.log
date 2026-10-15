@@ -948,3 +948,27 @@
 | logistics-v1 | 1.0 | 0.786 |
 [chain] DONE all-v1 Thu Oct 15 09:50:48 IST 2026
 [chain] START core-all Thu Oct 15 09:50:48 IST 2026
+[logistics-v2|rag_dense] 1/24 logistics-v2-deprecated-01   OK     623 tok 51.6s
+[logistics-v2|rag_dense] 2/24 logistics-v2-validity-01     OK     492 tok 45.7s
+[logistics-v2|rag_dense] 3/24 logistics-v2-deprecated-02   OK     504 tok 54.3s
+[logistics-v2|rag_dense] 4/24 logistics-v2-validity-02     OK     479 tok 23.5s
+[logistics-v2|rag_dense] 5/24 logistics-v2-deprecated-03   OK     556 tok 56.2s
+[logistics-v2|rag_dense] 6/24 logistics-v2-validity-03     OK     613 tok 35.0s
+[logistics-v2|rag_dense] 7/24 logistics-v2-composition-01  BAD    472 tok 53.6s
+[logistics-v2|rag_dense] 8/24 logistics-v2-composition-02  OK     457 tok 52.4s
+[logistics-v2|rag_dense] 9/24 logistics-v2-composition-03  OK     363 tok 43.2s
+[logistics-v2|rag_dense] 10/24 logistics-v2-composition-04  OK     364 tok 27.8s
+[logistics-v2|rag_dense] 11/24 logistics-v2-homonym-01      OK     822 tok 63.0s
+[logistics-v2|rag_dense] 12/24 logistics-v2-homonym-02      OK     824 tok 49.6s
+[logistics-v2|rag_dense] 13/24 logistics-v2-split_table-01  BAD    774 tok 33.3s
+[logistics-v2|rag_dense] 14/24 logistics-v2-split_table-02  BAD    823 tok 76.2s
+[logistics-v2|rag_dense] 15/24 logistics-v2-split_table-03  BAD    794 tok 39.5s
+[logistics-v2|rag_dense] 16/24 logistics-v2-split_table-04  BAD    718 tok 43.4s
+[logistics-v2|rag_dense] 17/24 logistics-v2-absence-01      OK     611 tok 50.2s
+[logistics-v2|rag_dense] 18/24 logistics-v2-absence-02      OK     497 tok 29.2s
+[logistics-v2|rag_dense] 19/24 logistics-v2-absence-03      OK     353 tok 25.0s
+[logistics-v2|rag_dense] 20/24 logistics-v2-absence-04      BAD    367 tok 29.5s
+[logistics-v2|rag_dense] 21/24 logistics-v2-long_tail-01    OK     459 tok 40.7s
+[logistics-v2|rag_dense] 22/24 logistics-v2-long_tail-02    OK     458 tok 16.8s
+[logistics-v2|rag_dense] 23/24 logistics-v2-long_tail-03    OK     365 tok 30.5s
+[logistics-v2|rag_dense] 24/24 logistics-v2-long_tail-04    OK     350 tok 24.7s
