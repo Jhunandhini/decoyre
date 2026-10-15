@@ -688,3 +688,9 @@
 [saas-v1|decoyre_no_status] 16/24 saas-v1-split_table-04       OK    2227 tok 69.0s
 [saas-v1|decoyre_no_status] 17/24 saas-v1-absence-01           OK     635 tok 16.3s
 [saas-v1|decoyre_no_status] 18/24 saas-v1-absence-02           OK     625 tok 13.1s
+[saas-v1|decoyre_no_status] 19/24 saas-v1-absence-03           OK     625 tok 14.9s
+[saas-v1|decoyre_no_status] 20/24 saas-v1-absence-04           OK     613 tok 12.4s
+[saas-v1|decoyre_no_status] 21/24 saas-v1-long_tail-01         BAD   1088 tok 47.1s
+[saas-v1|decoyre_no_status] 22/24 saas-v1-long_tail-02         BAD   1160 tok 53.3s
+[saas-v1|decoyre_no_status] 23/24 saas-v1-long_tail-03         OK    1288 tok 59.5s
+[saas-v1|decoyre_no_status] 24/24 saas-v1-long_tail-04         OK    1222 tok 60.2s
