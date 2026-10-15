@@ -1141,3 +1141,4 @@
 [logistics-v3|agent_search] 23/24 logistics-v3-long_tail-03    OK     801 tok 34.0s
 [logistics-v3|agent_search] 24/24 logistics-v3-long_tail-04    OK     800 tok 31.2s
 [logistics-v3|okf_rag_gold] 1/24 logistics-v3-deprecated-01   BAD    446 tok 11.6s
+[logistics-v3|okf_rag_gold] 2/24 logistics-v3-validity-01     BAD    445 tok 6.9s
