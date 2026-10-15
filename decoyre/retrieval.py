@@ -15,7 +15,7 @@ def load_docs(raw_dir):
     for p in sorted(root.rglob("*.md")):
         text = p.read_text(encoding="utf-8")
         meta, body = parse_frontmatter(text)
-        rel = str(p.relative_to(root))
+        rel = p.relative_to(root).as_posix()
         meta["kind"] = rel.split("/")[0]
         docs.append({"path": rel, "meta": meta, "body": body, "text": text})
     return docs

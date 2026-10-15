@@ -18,7 +18,7 @@ ANSWER_RULES = (
 class Bundle:
     def __init__(self, bundle_dir):
         self.dir = Path(bundle_dir)
-        self.concepts = {str(p.relative_to(self.dir))[:-3]: p.read_text(encoding="utf-8")
+        self.concepts = {p.relative_to(self.dir).as_posix()[:-3]: p.read_text(encoding="utf-8")
                          for p in self.dir.rglob("*.md") if p.name != "index.md"}
         self.index_text = (self.dir / "index.md").read_text(encoding="utf-8")
         g = self.dir / "graph.json"
