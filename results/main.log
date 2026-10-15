@@ -685,3 +685,6 @@
 [saas-v1|decoyre_no_status] 13/24 saas-v1-split_table-01       OK    2367 tok 74.0s
 [saas-v1|decoyre_no_status] 14/24 saas-v1-split_table-02       OK    1491 tok 52.6s
 [saas-v1|decoyre_no_status] 15/24 saas-v1-split_table-03       OK    3446 tok 91.2s
+[saas-v1|decoyre_no_status] 16/24 saas-v1-split_table-04       OK    2227 tok 69.0s
+[saas-v1|decoyre_no_status] 17/24 saas-v1-absence-01           OK     635 tok 16.3s
+[saas-v1|decoyre_no_status] 18/24 saas-v1-absence-02           OK     625 tok 13.1s
