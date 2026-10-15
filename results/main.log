@@ -1,0 +1,650 @@
+[retail-v1|rag_dense] 1/24 retail-v1-deprecated-01      OK     532 tok 29.3s
+[retail-v1|rag_dense] 2/24 retail-v1-validity-01        OK     480 tok 23.2s
+[retail-v1|rag_dense] 3/24 retail-v1-deprecated-02      OK     479 tok 15.0s
+[retail-v1|rag_dense] 4/24 retail-v1-validity-02        OK     487 tok 32.9s
+[retail-v1|rag_dense] 5/24 retail-v1-deprecated-03      OK     699 tok 59.3s
+[retail-v1|rag_dense] 6/24 retail-v1-validity-03        OK     552 tok 47.5s
+[retail-v1|rag_dense] 7/24 retail-v1-composition-01     BAD    404 tok 40.7s
+[retail-v1|rag_dense] 8/24 retail-v1-composition-02     OK     394 tok 32.1s
+[retail-v1|rag_dense] 9/24 retail-v1-composition-03     OK     405 tok 50.6s
+[retail-v1|rag_dense] 10/24 retail-v1-composition-04     OK     398 tok 39.2s
+[retail-v1|rag_dense] 11/24 retail-v1-homonym-01         OK     797 tok 66.1s
+[retail-v1|rag_dense] 12/24 retail-v1-homonym-02         OK     799 tok 12.8s
+[retail-v1|rag_dense] 13/24 retail-v1-split_table-01     BAD    704 tok 27.5s
+[retail-v1|rag_dense] 14/24 retail-v1-split_table-02     BAD    707 tok 40.5s
+[retail-v1|rag_dense] 15/24 retail-v1-split_table-03     OK     869 tok 50.4s
+[retail-v1|rag_dense] 16/24 retail-v1-split_table-04     OK     774 tok 41.5s
+[retail-v1|rag_dense] 17/24 retail-v1-absence-01         OK     496 tok 32.4s
+[retail-v1|rag_dense] 18/24 retail-v1-absence-02         OK     696 tok 39.1s
+[retail-v1|rag_dense] 19/24 retail-v1-absence-03         OK     767 tok 47.5s
+[retail-v1|rag_dense] 20/24 retail-v1-absence-04         OK     463 tok 43.1s
+[retail-v1|rag_dense] 21/24 retail-v1-long_tail-01       OK     403 tok 34.4s
+[retail-v1|rag_dense] 22/24 retail-v1-long_tail-02       OK     434 tok 36.7s
+[retail-v1|rag_dense] 23/24 retail-v1-long_tail-03       OK     414 tok 25.0s
+[retail-v1|rag_dense] 24/24 retail-v1-long_tail-04       OK     479 tok 33.3s
+[retail-v1|rag_hybrid] 1/24 retail-v1-deprecated-01      OK     605 tok 29.8s
+[retail-v1|rag_hybrid] 2/24 retail-v1-validity-01        OK     512 tok 21.3s
+[retail-v1|rag_hybrid] 3/24 retail-v1-deprecated-02      OK     479 tok 13.0s
+[retail-v1|rag_hybrid] 4/24 retail-v1-validity-02        OK     528 tok 26.4s
+[retail-v1|rag_hybrid] 5/24 retail-v1-deprecated-03      OK     547 tok 27.6s
+[retail-v1|rag_hybrid] 6/24 retail-v1-validity-03        OK     612 tok 24.5s
+[retail-v1|rag_hybrid] 7/24 retail-v1-composition-01     BAD    429 tok 33.1s
+[retail-v1|rag_hybrid] 8/24 retail-v1-composition-02     OK     495 tok 31.6s
+[retail-v1|rag_hybrid] 9/24 retail-v1-composition-03     OK     430 tok 40.6s
+[retail-v1|rag_hybrid] 10/24 retail-v1-composition-04     OK     489 tok 34.2s
+[retail-v1|rag_hybrid] 11/24 retail-v1-homonym-01         OK     797 tok 10.1s
+[retail-v1|rag_hybrid] 12/24 retail-v1-homonym-02         OK     799 tok 24.6s
+[retail-v1|rag_hybrid] 13/24 retail-v1-split_table-01     BAD    704 tok 16.4s
+[retail-v1|rag_hybrid] 14/24 retail-v1-split_table-02     OK     700 tok 37.4s
+[retail-v1|rag_hybrid] 15/24 retail-v1-split_table-03     BAD    869 tok 24.3s
+[retail-v1|rag_hybrid] 16/24 retail-v1-split_table-04     OK     774 tok 32.4s
+[retail-v1|rag_hybrid] 17/24 retail-v1-absence-01         OK     707 tok 37.5s
+[retail-v1|rag_hybrid] 18/24 retail-v1-absence-02         OK     777 tok 26.6s
+[retail-v1|rag_hybrid] 19/24 retail-v1-absence-03         BAD    603 tok 31.1s
+[retail-v1|rag_hybrid] 20/24 retail-v1-absence-04         OK     461 tok 12.2s
+[retail-v1|rag_hybrid] 21/24 retail-v1-long_tail-01       OK     605 tok 30.2s
+[retail-v1|rag_hybrid] 22/24 retail-v1-long_tail-02       OK     605 tok 15.5s
+[retail-v1|rag_hybrid] 23/24 retail-v1-long_tail-03       OK     557 tok 25.0s
+[retail-v1|rag_hybrid] 24/24 retail-v1-long_tail-04       OK     675 tok 28.7s
+[retail-v1|agent_search] 1/24 retail-v1-deprecated-01      BAD    271 tok 14.9s
+[retail-v1|agent_search] 2/24 retail-v1-validity-01        OK     959 tok 38.5s
+[retail-v1|agent_search] 3/24 retail-v1-deprecated-02      BAD    272 tok 4.3s
+[retail-v1|agent_search] 4/24 retail-v1-validity-02        OK     939 tok 35.8s
+[retail-v1|agent_search] 5/24 retail-v1-deprecated-03      BAD    273 tok 4.2s
+[retail-v1|agent_search] 6/24 retail-v1-validity-03        BAD    274 tok 4.4s
+[retail-v1|agent_search] 7/24 retail-v1-composition-01     BAD    856 tok 42.5s
+[retail-v1|agent_search] 8/24 retail-v1-composition-02     OK     944 tok 57.9s
+[retail-v1|agent_search] 9/24 retail-v1-composition-03     BAD    274 tok 5.2s
+[retail-v1|agent_search] 10/24 retail-v1-composition-04     BAD    274 tok 7.8s
+[retail-v1|agent_search] 11/24 retail-v1-homonym-01         BAD    276 tok 12.9s
+[retail-v1|agent_search] 12/24 retail-v1-homonym-02         BAD    278 tok 10.8s
+[retail-v1|agent_search] 13/24 retail-v1-split_table-01     BAD   1254 tok 62.8s
+[retail-v1|agent_search] 14/24 retail-v1-split_table-02     BAD    281 tok 9.8s
+[retail-v1|agent_search] 15/24 retail-v1-split_table-03     OK    1323 tok 59.5s
+[retail-v1|agent_search] 16/24 retail-v1-split_table-04     OK    1248 tok 54.5s
+[retail-v1|agent_search] 17/24 retail-v1-absence-01         OK     275 tok 4.8s
+[retail-v1|agent_search] 18/24 retail-v1-absence-02         OK    1231 tok 52.7s
+[retail-v1|agent_search] 19/24 retail-v1-absence-03         OK     274 tok 4.3s
+[retail-v1|agent_search] 20/24 retail-v1-absence-04         OK     276 tok 10.3s
+[retail-v1|agent_search] 21/24 retail-v1-long_tail-01       OK    1172 tok 60.0s
+[retail-v1|agent_search] 22/24 retail-v1-long_tail-02       OK    1054 tok 55.5s
+[retail-v1|agent_search] 23/24 retail-v1-long_tail-03       OK    1031 tok 44.8s
+[retail-v1|agent_search] 24/24 retail-v1-long_tail-04       OK    1080 tok 53.4s
+[retail-v1|okf_rag_gold] 1/24 retail-v1-deprecated-01      BAD    434 tok 14.2s
+[retail-v1|okf_rag_gold] 2/24 retail-v1-validity-01        BAD    435 tok 6.4s
+[retail-v1|okf_rag_gold] 3/24 retail-v1-deprecated-02      BAD    435 tok 15.1s
+[retail-v1|okf_rag_gold] 4/24 retail-v1-validity-02        OK    1008 tok 23.3s
+[retail-v1|okf_rag_gold] 5/24 retail-v1-deprecated-03      BAD    436 tok 8.3s
+[retail-v1|okf_rag_gold] 6/24 retail-v1-validity-03        OK    1012 tok 24.6s
+[retail-v1|okf_rag_gold] 7/24 retail-v1-composition-01     BAD    440 tok 14.3s
+[retail-v1|okf_rag_gold] 8/24 retail-v1-composition-02     BAD    437 tok 10.4s
+[retail-v1|okf_rag_gold] 9/24 retail-v1-composition-03     OK     994 tok 30.9s
+[retail-v1|okf_rag_gold] 10/24 retail-v1-composition-04     OK     994 tok 37.3s
+[retail-v1|okf_rag_gold] 11/24 retail-v1-homonym-01         OK     439 tok 7.4s
+[retail-v1|okf_rag_gold] 12/24 retail-v1-homonym-02         OK     441 tok 7.6s
+[retail-v1|okf_rag_gold] 13/24 retail-v1-split_table-01     BAD   1578 tok 62.1s
+[retail-v1|okf_rag_gold] 14/24 retail-v1-split_table-02     BAD   1485 tok 48.5s
+[retail-v1|okf_rag_gold] 15/24 retail-v1-split_table-03     OK    1649 tok 56.0s
+[retail-v1|okf_rag_gold] 16/24 retail-v1-split_table-04     OK    1574 tok 52.7s
+[retail-v1|okf_rag_gold] 17/24 retail-v1-absence-01         OK     438 tok 5.0s
+[retail-v1|okf_rag_gold] 18/24 retail-v1-absence-02         OK     439 tok 4.7s
+[retail-v1|okf_rag_gold] 19/24 retail-v1-absence-03         OK     437 tok 4.4s
+[retail-v1|okf_rag_gold] 20/24 retail-v1-absence-04         OK     439 tok 4.5s
+[retail-v1|okf_rag_gold] 21/24 retail-v1-long_tail-01       BAD    437 tok 4.5s
+[retail-v1|okf_rag_gold] 22/24 retail-v1-long_tail-02       BAD    437 tok 4.8s
+[retail-v1|okf_rag_gold] 23/24 retail-v1-long_tail-03       BAD    436 tok 4.5s
+[retail-v1|okf_rag_gold] 24/24 retail-v1-long_tail-04       BAD    439 tok 4.5s
+[retail-v1|decoyre] 1/24 retail-v1-deprecated-01      OK    1865 tok 59.9s
+[retail-v1|decoyre] 2/24 retail-v1-validity-01        OK    1868 tok 47.6s
+[retail-v1|decoyre] 3/24 retail-v1-deprecated-02      OK    1851 tok 45.8s
+[retail-v1|decoyre] 4/24 retail-v1-validity-02        OK    1858 tok 49.8s
+[retail-v1|decoyre] 5/24 retail-v1-deprecated-03      OK    1901 tok 50.6s
+[retail-v1|decoyre] 6/24 retail-v1-validity-03        OK    1906 tok 47.6s
+[retail-v1|decoyre] 7/24 retail-v1-composition-01     BAD   2020 tok 67.4s
+[retail-v1|decoyre] 8/24 retail-v1-composition-02     BAD    604 tok 17.6s
+[retail-v1|decoyre] 9/24 retail-v1-composition-03     OK    1888 tok 63.4s
+[retail-v1|decoyre] 10/24 retail-v1-composition-04     BAD    607 tok 17.9s
+[retail-v1|decoyre] 11/24 retail-v1-homonym-01         OK    2103 tok 50.9s
+[retail-v1|decoyre] 12/24 retail-v1-homonym-02         OK    2105 tok 49.4s
+[retail-v1|decoyre] 13/24 retail-v1-split_table-01     BAD   1289 tok 41.7s
+[retail-v1|decoyre] 14/24 retail-v1-split_table-02     OK    1466 tok 49.2s
+[retail-v1|decoyre] 15/24 retail-v1-split_table-03     OK    3012 tok 96.6s
+[retail-v1|decoyre] 16/24 retail-v1-split_table-04     BAD   1922 tok 68.4s
+[retail-v1|decoyre] 17/24 retail-v1-absence-01         OK     613 tok 17.7s
+[retail-v1|decoyre] 18/24 retail-v1-absence-02         OK     617 tok 16.7s
+[retail-v1|decoyre] 19/24 retail-v1-absence-03         OK     607 tok 15.3s
+[retail-v1|decoyre] 20/24 retail-v1-absence-04         OK     604 tok 14.5s
+[retail-v1|decoyre] 21/24 retail-v1-long_tail-01       OK    1159 tok 66.5s
+[retail-v1|decoyre] 22/24 retail-v1-long_tail-02       OK    1165 tok 58.1s
+[retail-v1|decoyre] 23/24 retail-v1-long_tail-03       OK    1170 tok 57.6s
+[retail-v1|decoyre] 24/24 retail-v1-long_tail-04       OK    1244 tok 72.6s
+[saas-v1|rag_dense] 1/24 saas-v1-deprecated-01        OK     641 tok 57.8s
+[saas-v1|rag_dense] 2/24 saas-v1-validity-01          BAD    560 tok 42.6s
+[saas-v1|rag_dense] 3/24 saas-v1-deprecated-02        OK     538 tok 39.2s
+[saas-v1|rag_dense] 4/24 saas-v1-validity-02          OK     516 tok 37.5s
+[saas-v1|rag_dense] 5/24 saas-v1-deprecated-03        OK     685 tok 50.4s
+[saas-v1|rag_dense] 6/24 saas-v1-validity-03          OK     687 tok 31.2s
+[saas-v1|rag_dense] 7/24 saas-v1-composition-01       BAD    429 tok 48.1s
+[saas-v1|rag_dense] 8/24 saas-v1-composition-02       BAD    518 tok 51.1s
+[saas-v1|rag_dense] 9/24 saas-v1-composition-03       BAD    397 tok 35.3s
+[saas-v1|rag_dense] 10/24 saas-v1-composition-04       BAD    572 tok 40.1s
+[saas-v1|rag_dense] 11/24 saas-v1-homonym-01           BAD    520 tok 38.7s
+[saas-v1|rag_dense] 12/24 saas-v1-homonym-02           OK     610 tok 36.8s
+[saas-v1|rag_dense] 13/24 saas-v1-split_table-01       BAD    760 tok 41.2s
+[saas-v1|rag_dense] 14/24 saas-v1-split_table-02       BAD    510 tok 27.0s
+[saas-v1|rag_dense] 15/24 saas-v1-split_table-03       OK     763 tok 43.4s
+[saas-v1|rag_dense] 16/24 saas-v1-split_table-04       OK     695 tok 40.5s
+[saas-v1|rag_dense] 17/24 saas-v1-absence-01           OK     456 tok 27.7s
+[saas-v1|rag_dense] 18/24 saas-v1-absence-02           OK     456 tok 31.5s
+[saas-v1|rag_dense] 19/24 saas-v1-absence-03           OK     376 tok 23.0s
+[saas-v1|rag_dense] 20/24 saas-v1-absence-04           OK     451 tok 25.9s
+[saas-v1|rag_dense] 21/24 saas-v1-long_tail-01         OK     384 tok 25.6s
+[saas-v1|rag_dense] 22/24 saas-v1-long_tail-02         OK     423 tok 25.4s
+[saas-v1|rag_dense] 23/24 saas-v1-long_tail-03         OK     393 tok 23.8s
+[saas-v1|rag_dense] 24/24 saas-v1-long_tail-04         BAD    378 tok 24.6s
+[saas-v1|rag_hybrid] 1/24 saas-v1-deprecated-01        OK     554 tok 15.6s
+[saas-v1|rag_hybrid] 2/24 saas-v1-validity-01          OK     573 tok 21.2s
+[saas-v1|rag_hybrid] 3/24 saas-v1-deprecated-02        OK     470 tok 12.9s
+[saas-v1|rag_hybrid] 4/24 saas-v1-validity-02          OK     519 tok 17.8s
+[saas-v1|rag_hybrid] 5/24 saas-v1-deprecated-03        OK     649 tok 27.2s
+[saas-v1|rag_hybrid] 6/24 saas-v1-validity-03          OK     649 tok 23.6s
+[saas-v1|rag_hybrid] 7/24 saas-v1-composition-01       BAD    458 tok 36.8s
+[saas-v1|rag_hybrid] 8/24 saas-v1-composition-02       BAD    415 tok 29.4s
+[saas-v1|rag_hybrid] 9/24 saas-v1-composition-03       OK     385 tok 28.5s
+[saas-v1|rag_hybrid] 10/24 saas-v1-composition-04       BAD    575 tok 33.8s
+[saas-v1|rag_hybrid] 11/24 saas-v1-homonym-01           BAD    523 tok 16.6s
+[saas-v1|rag_hybrid] 12/24 saas-v1-homonym-02           OK     698 tok 34.7s
+[saas-v1|rag_hybrid] 13/24 saas-v1-split_table-01       BAD    760 tok 5.9s
+[saas-v1|rag_hybrid] 14/24 saas-v1-split_table-02       BAD    506 tok 28.4s
+[saas-v1|rag_hybrid] 15/24 saas-v1-split_table-03       OK     763 tok 8.0s
+[saas-v1|rag_hybrid] 16/24 saas-v1-split_table-04       OK     653 tok 25.6s
+[saas-v1|rag_hybrid] 17/24 saas-v1-absence-01           OK     455 tok 14.5s
+[saas-v1|rag_hybrid] 18/24 saas-v1-absence-02           OK     505 tok 24.2s
+[saas-v1|rag_hybrid] 19/24 saas-v1-absence-03           OK     653 tok 34.2s
+[saas-v1|rag_hybrid] 20/24 saas-v1-absence-04           OK     439 tok 17.1s
+[saas-v1|rag_hybrid] 21/24 saas-v1-long_tail-01         BAD    429 tok 19.3s
+[saas-v1|rag_hybrid] 22/24 saas-v1-long_tail-02         BAD    451 tok 22.0s
+[saas-v1|rag_hybrid] 23/24 saas-v1-long_tail-03         OK     629 tok 30.9s
+[saas-v1|rag_hybrid] 24/24 saas-v1-long_tail-04         BAD    537 tok 30.7s
+[saas-v1|agent_search] 1/24 saas-v1-deprecated-01        BAD    273 tok 22.4s
+[saas-v1|agent_search] 2/24 saas-v1-validity-01          OK    1000 tok 49.3s
+[saas-v1|agent_search] 3/24 saas-v1-deprecated-02        BAD    274 tok 4.4s
+[saas-v1|agent_search] 4/24 saas-v1-validity-02          BAD    274 tok 12.1s
+[saas-v1|agent_search] 5/24 saas-v1-deprecated-03        BAD    273 tok 4.6s
+[saas-v1|agent_search] 6/24 saas-v1-validity-03          OK    1055 tok 49.5s
+[saas-v1|agent_search] 7/24 saas-v1-composition-01       BAD    275 tok 10.1s
+[saas-v1|agent_search] 8/24 saas-v1-composition-02       BAD    973 tok 56.8s
+[saas-v1|agent_search] 9/24 saas-v1-composition-03       BAD    277 tok 4.6s
+[saas-v1|agent_search] 10/24 saas-v1-composition-04       BAD    278 tok 4.6s
+[saas-v1|agent_search] 11/24 saas-v1-homonym-01           BAD    278 tok 9.9s
+[saas-v1|agent_search] 12/24 saas-v1-homonym-02           BAD    279 tok 8.1s
+[saas-v1|agent_search] 13/24 saas-v1-split_table-01       BAD   1211 tok 64.3s
+[saas-v1|agent_search] 14/24 saas-v1-split_table-02       BAD   1073 tok 61.4s
+[saas-v1|agent_search] 15/24 saas-v1-split_table-03       BAD    279 tok 8.6s
+[saas-v1|agent_search] 16/24 saas-v1-split_table-04       OK    1040 tok 42.4s
+[saas-v1|agent_search] 17/24 saas-v1-absence-01           OK     278 tok 5.0s
+[saas-v1|agent_search] 18/24 saas-v1-absence-02           OK     966 tok 37.2s
+[saas-v1|agent_search] 19/24 saas-v1-absence-03           OK     275 tok 7.5s
+[saas-v1|agent_search] 20/24 saas-v1-absence-04           OK     273 tok 4.3s
+[saas-v1|agent_search] 21/24 saas-v1-long_tail-01         OK     882 tok 40.3s
+[saas-v1|agent_search] 22/24 saas-v1-long_tail-02         BAD    959 tok 40.1s
+[saas-v1|agent_search] 23/24 saas-v1-long_tail-03         OK    1086 tok 49.8s
+[saas-v1|agent_search] 24/24 saas-v1-long_tail-04         OK    1018 tok 47.5s
+[saas-v1|okf_rag_gold] 1/24 saas-v1-deprecated-01        BAD    445 tok 26.2s
+[saas-v1|okf_rag_gold] 2/24 saas-v1-validity-01          BAD    445 tok 5.6s
+[saas-v1|okf_rag_gold] 3/24 saas-v1-deprecated-02        BAD    446 tok 15.5s
+[saas-v1|okf_rag_gold] 4/24 saas-v1-validity-02          BAD    446 tok 8.4s
+[saas-v1|okf_rag_gold] 5/24 saas-v1-deprecated-03        BAD    445 tok 12.6s
+[saas-v1|okf_rag_gold] 6/24 saas-v1-validity-03          BAD    445 tok 11.2s
+[saas-v1|okf_rag_gold] 7/24 saas-v1-composition-01       BAD    447 tok 9.1s
+[saas-v1|okf_rag_gold] 8/24 saas-v1-composition-02       OK    1021 tok 37.4s
+[saas-v1|okf_rag_gold] 9/24 saas-v1-composition-03       BAD    449 tok 8.3s
+[saas-v1|okf_rag_gold] 10/24 saas-v1-composition-04       BAD    450 tok 11.4s
+[saas-v1|okf_rag_gold] 11/24 saas-v1-homonym-01           OK     450 tok 7.8s
+[saas-v1|okf_rag_gold] 12/24 saas-v1-homonym-02           OK     451 tok 7.9s
+[saas-v1|okf_rag_gold] 13/24 saas-v1-split_table-01       OK    1249 tok 38.4s
+[saas-v1|okf_rag_gold] 14/24 saas-v1-split_table-02       OK    1261 tok 36.1s
+[saas-v1|okf_rag_gold] 15/24 saas-v1-split_table-03       OK    1255 tok 34.0s
+[saas-v1|okf_rag_gold] 16/24 saas-v1-split_table-04       OK    1384 tok 40.3s
+[saas-v1|okf_rag_gold] 17/24 saas-v1-absence-01           OK     450 tok 4.8s
+[saas-v1|okf_rag_gold] 18/24 saas-v1-absence-02           OK     450 tok 6.5s
+[saas-v1|okf_rag_gold] 19/24 saas-v1-absence-03           OK     447 tok 8.8s
+[saas-v1|okf_rag_gold] 20/24 saas-v1-absence-04           OK     445 tok 7.0s
+[saas-v1|okf_rag_gold] 21/24 saas-v1-long_tail-01         BAD    446 tok 8.5s
+[saas-v1|okf_rag_gold] 22/24 saas-v1-long_tail-02         BAD    446 tok 4.5s
+[saas-v1|okf_rag_gold] 23/24 saas-v1-long_tail-03         BAD    448 tok 4.5s
+[saas-v1|okf_rag_gold] 24/24 saas-v1-long_tail-04         BAD    446 tok 4.3s
+[saas-v1|decoyre] 1/24 saas-v1-deprecated-01        OK    1966 tok 85.0s
+[saas-v1|decoyre] 2/24 saas-v1-validity-01          OK    1963 tok 50.4s
+[saas-v1|decoyre] 3/24 saas-v1-deprecated-02        OK    1961 tok 49.1s
+[saas-v1|decoyre] 4/24 saas-v1-validity-02          OK    1954 tok 54.8s
+[saas-v1|decoyre] 5/24 saas-v1-deprecated-03        OK    1963 tok 54.1s
+[saas-v1|decoyre] 6/24 saas-v1-validity-03          OK    1965 tok 48.0s
+[saas-v1|decoyre] 7/24 saas-v1-composition-01       BAD   1389 tok 38.9s
+[saas-v1|decoyre] 8/24 saas-v1-composition-02       OK    1401 tok 78.9s
+[saas-v1|decoyre] 9/24 saas-v1-composition-03       OK    1310 tok 50.8s
+[saas-v1|decoyre] 10/24 saas-v1-composition-04       BAD    637 tok 16.8s
+[saas-v1|decoyre] 11/24 saas-v1-homonym-01           OK    1401 tok 41.0s
+[saas-v1|decoyre] 12/24 saas-v1-homonym-02           OK    2183 tok 52.6s
+[saas-v1|decoyre] 13/24 saas-v1-split_table-01       OK    2367 tok 70.0s
+[saas-v1|decoyre] 14/24 saas-v1-split_table-02       OK    1491 tok 48.4s
+[saas-v1|decoyre] 15/24 saas-v1-split_table-03       OK    3446 tok 78.7s
+[saas-v1|decoyre] 16/24 saas-v1-split_table-04       OK    2157 tok 61.0s
+[saas-v1|decoyre] 17/24 saas-v1-absence-01           OK     635 tok 16.0s
+[saas-v1|decoyre] 18/24 saas-v1-absence-02           OK     625 tok 13.2s
+[saas-v1|decoyre] 19/24 saas-v1-absence-03           OK     625 tok 13.9s
+[saas-v1|decoyre] 20/24 saas-v1-absence-04           OK     613 tok 12.4s
+[saas-v1|decoyre] 21/24 saas-v1-long_tail-01         OK    1052 tok 48.6s
+[saas-v1|decoyre] 22/24 saas-v1-long_tail-02         BAD   1157 tok 48.4s
+[saas-v1|decoyre] 23/24 saas-v1-long_tail-03         OK    1269 tok 57.9s
+[saas-v1|decoyre] 24/24 saas-v1-long_tail-04         OK    1147 tok 55.2s
+[logistics-v1|rag_dense] 1/24 logistics-v1-deprecated-01   OK     519 tok 37.3s
+[logistics-v1|rag_dense] 2/24 logistics-v1-validity-01     OK     480 tok 28.3s
+[logistics-v1|rag_dense] 3/24 logistics-v1-deprecated-02   OK     501 tok 29.7s
+[logistics-v1|rag_dense] 4/24 logistics-v1-validity-02     OK     476 tok 16.5s
+[logistics-v1|rag_dense] 5/24 logistics-v1-deprecated-03   OK     619 tok 43.1s
+[logistics-v1|rag_dense] 6/24 logistics-v1-validity-03     OK     659 tok 31.6s
+[logistics-v1|rag_dense] 7/24 logistics-v1-composition-01  BAD    472 tok 39.8s
+[logistics-v1|rag_dense] 8/24 logistics-v1-composition-02  OK     457 tok 43.8s
+[logistics-v1|rag_dense] 9/24 logistics-v1-composition-03  OK     363 tok 36.3s
+[logistics-v1|rag_dense] 10/24 logistics-v1-composition-04  OK     364 tok 23.5s
+[logistics-v1|rag_dense] 11/24 logistics-v1-homonym-01      OK     806 tok 47.8s
+[logistics-v1|rag_dense] 12/24 logistics-v1-homonym-02      OK     808 tok 38.6s
+[logistics-v1|rag_dense] 13/24 logistics-v1-split_table-01  BAD    837 tok 31.5s
+[logistics-v1|rag_dense] 14/24 logistics-v1-split_table-02  BAD    807 tok 44.7s
+[logistics-v1|rag_dense] 15/24 logistics-v1-split_table-03  BAD    808 tok 45.9s
+[logistics-v1|rag_dense] 16/24 logistics-v1-split_table-04  BAD    698 tok 32.0s
+[logistics-v1|rag_dense] 17/24 logistics-v1-absence-01      OK     696 tok 38.5s
+[logistics-v1|rag_dense] 18/24 logistics-v1-absence-02      OK     557 tok 28.4s
+[logistics-v1|rag_dense] 19/24 logistics-v1-absence-03      OK     353 tok 21.7s
+[logistics-v1|rag_dense] 20/24 logistics-v1-absence-04      BAD    413 tok 34.1s
+[logistics-v1|rag_dense] 21/24 logistics-v1-long_tail-01    OK     459 tok 34.7s
+[logistics-v1|rag_dense] 22/24 logistics-v1-long_tail-02    OK     458 tok 15.0s
+[logistics-v1|rag_dense] 23/24 logistics-v1-long_tail-03    OK     365 tok 26.2s
+[logistics-v1|rag_dense] 24/24 logistics-v1-long_tail-04    OK     350 tok 22.8s
+[logistics-v1|rag_hybrid] 1/24 logistics-v1-deprecated-01   BAD    597 tok 23.3s
+[logistics-v1|rag_hybrid] 2/24 logistics-v1-validity-01     OK     508 tok 16.8s
+[logistics-v1|rag_hybrid] 3/24 logistics-v1-deprecated-02   OK     495 tok 15.9s
+[logistics-v1|rag_hybrid] 4/24 logistics-v1-validity-02     OK     496 tok 9.1s
+[logistics-v1|rag_hybrid] 5/24 logistics-v1-deprecated-03   OK     607 tok 23.9s
+[logistics-v1|rag_hybrid] 6/24 logistics-v1-validity-03     OK     608 tok 24.2s
+[logistics-v1|rag_hybrid] 7/24 logistics-v1-composition-01  BAD    455 tok 31.2s
+[logistics-v1|rag_hybrid] 8/24 logistics-v1-composition-02  OK     403 tok 39.6s
+[logistics-v1|rag_hybrid] 9/24 logistics-v1-composition-03  OK     363 tok 22.7s
+[logistics-v1|rag_hybrid] 10/24 logistics-v1-composition-04  OK     364 tok 19.8s
+[logistics-v1|rag_hybrid] 11/24 logistics-v1-homonym-01      OK     806 tok 24.9s
+[logistics-v1|rag_hybrid] 12/24 logistics-v1-homonym-02      OK     808 tok 10.5s
+[logistics-v1|rag_hybrid] 13/24 logistics-v1-split_table-01  BAD    809 tok 36.2s
+[logistics-v1|rag_hybrid] 14/24 logistics-v1-split_table-02  BAD    807 tok 38.4s
+[logistics-v1|rag_hybrid] 15/24 logistics-v1-split_table-03  BAD    808 tok 36.9s
+[logistics-v1|rag_hybrid] 16/24 logistics-v1-split_table-04  OK     703 tok 31.0s
+[logistics-v1|rag_hybrid] 17/24 logistics-v1-absence-01      OK     677 tok 24.9s
+[logistics-v1|rag_hybrid] 18/24 logistics-v1-absence-02      BAD    559 tok 31.1s
+[logistics-v1|rag_hybrid] 19/24 logistics-v1-absence-03      OK     353 tok 17.1s
+[logistics-v1|rag_hybrid] 20/24 logistics-v1-absence-04      BAD    606 tok 33.9s
+[logistics-v1|rag_hybrid] 21/24 logistics-v1-long_tail-01    BAD    463 tok 27.6s
+[logistics-v1|rag_hybrid] 22/24 logistics-v1-long_tail-02    OK     462 tok 11.0s
+[logistics-v1|rag_hybrid] 23/24 logistics-v1-long_tail-03    OK     346 tok 18.7s
+[logistics-v1|rag_hybrid] 24/24 logistics-v1-long_tail-04    OK     350 tok 15.5s
+[logistics-v1|agent_search] 1/24 logistics-v1-deprecated-01   BAD    274 tok 19.4s
+[logistics-v1|agent_search] 2/24 logistics-v1-validity-01     OK     929 tok 40.1s
+[logistics-v1|agent_search] 3/24 logistics-v1-deprecated-02   BAD    273 tok 4.6s
+[logistics-v1|agent_search] 4/24 logistics-v1-validity-02     OK     946 tok 38.0s
+[logistics-v1|agent_search] 5/24 logistics-v1-deprecated-03   BAD    273 tok 9.6s
+[logistics-v1|agent_search] 6/24 logistics-v1-validity-03     BAD    274 tok 10.8s
+[logistics-v1|agent_search] 7/24 logistics-v1-composition-01  BAD    273 tok 4.4s
+[logistics-v1|agent_search] 8/24 logistics-v1-composition-02  BAD    275 tok 4.5s
+[logistics-v1|agent_search] 9/24 logistics-v1-composition-03  BAD    273 tok 6.6s
+[logistics-v1|agent_search] 10/24 logistics-v1-composition-04  BAD    274 tok 4.4s
+[logistics-v1|agent_search] 11/24 logistics-v1-homonym-01      BAD    276 tok 11.3s
+[logistics-v1|agent_search] 12/24 logistics-v1-homonym-02      BAD    278 tok 9.8s
+[logistics-v1|agent_search] 13/24 logistics-v1-split_table-01  BAD   1268 tok 60.4s
+[logistics-v1|agent_search] 14/24 logistics-v1-split_table-02  BAD   1262 tok 65.0s
+[logistics-v1|agent_search] 15/24 logistics-v1-split_table-03  BAD   1263 tok 58.9s
+[logistics-v1|agent_search] 16/24 logistics-v1-split_table-04  OK    1156 tok 47.9s
+[logistics-v1|agent_search] 17/24 logistics-v1-absence-01      OK     274 tok 4.3s
+[logistics-v1|agent_search] 18/24 logistics-v1-absence-02      BAD    276 tok 19.2s
+[logistics-v1|agent_search] 19/24 logistics-v1-absence-03      OK     275 tok 4.4s
+[logistics-v1|agent_search] 20/24 logistics-v1-absence-04      OK     274 tok 4.3s
+[logistics-v1|agent_search] 21/24 logistics-v1-long_tail-01    OK     925 tok 42.5s
+[logistics-v1|agent_search] 22/24 logistics-v1-long_tail-02    OK     922 tok 38.1s
+[logistics-v1|agent_search] 23/24 logistics-v1-long_tail-03    OK     801 tok 35.6s
+[logistics-v1|agent_search] 24/24 logistics-v1-long_tail-04    OK     800 tok 32.0s
+[logistics-v1|okf_rag_gold] 1/24 logistics-v1-deprecated-01   BAD    446 tok 24.8s
+[logistics-v1|okf_rag_gold] 2/24 logistics-v1-validity-01     BAD    445 tok 7.2s
+[logistics-v1|okf_rag_gold] 3/24 logistics-v1-deprecated-02   OK    1017 tok 24.9s
+[logistics-v1|okf_rag_gold] 4/24 logistics-v1-validity-02     OK    1019 tok 22.3s
+[logistics-v1|okf_rag_gold] 5/24 logistics-v1-deprecated-03   OK    1025 tok 27.4s
+[logistics-v1|okf_rag_gold] 6/24 logistics-v1-validity-03     OK    1027 tok 27.2s
+[logistics-v1|okf_rag_gold] 7/24 logistics-v1-composition-01  BAD    445 tok 14.2s
+[logistics-v1|okf_rag_gold] 8/24 logistics-v1-composition-02  BAD    447 tok 7.5s
+[logistics-v1|okf_rag_gold] 9/24 logistics-v1-composition-03  BAD    445 tok 6.7s
+[logistics-v1|okf_rag_gold] 10/24 logistics-v1-composition-04  OK    1004 tok 35.3s
+[logistics-v1|okf_rag_gold] 11/24 logistics-v1-homonym-01      OK     448 tok 8.5s
+[logistics-v1|okf_rag_gold] 12/24 logistics-v1-homonym-02      OK     450 tok 8.3s
+[logistics-v1|okf_rag_gold] 13/24 logistics-v1-split_table-01  OK    1266 tok 35.9s
+[logistics-v1|okf_rag_gold] 14/24 logistics-v1-split_table-02  BAD   1606 tok 65.5s
+[logistics-v1|okf_rag_gold] 15/24 logistics-v1-split_table-03  OK    1264 tok 33.6s
+[logistics-v1|okf_rag_gold] 16/24 logistics-v1-split_table-04  OK    1500 tok 45.5s
+[logistics-v1|okf_rag_gold] 17/24 logistics-v1-absence-01      OK     446 tok 4.7s
+[logistics-v1|okf_rag_gold] 18/24 logistics-v1-absence-02      OK     448 tok 7.6s
+[logistics-v1|okf_rag_gold] 19/24 logistics-v1-absence-03      OK     447 tok 4.5s
+[logistics-v1|okf_rag_gold] 20/24 logistics-v1-absence-04      OK     446 tok 4.5s
+[logistics-v1|okf_rag_gold] 21/24 logistics-v1-long_tail-01    BAD    450 tok 8.3s
+[logistics-v1|okf_rag_gold] 22/24 logistics-v1-long_tail-02    BAD    449 tok 4.6s
+[logistics-v1|okf_rag_gold] 23/24 logistics-v1-long_tail-03    BAD    450 tok 8.6s
+[logistics-v1|okf_rag_gold] 24/24 logistics-v1-long_tail-04    BAD    447 tok 10.9s
+[logistics-v1|decoyre] 1/24 logistics-v1-deprecated-01   BAD   1925 tok 79.2s
+[logistics-v1|decoyre] 2/24 logistics-v1-validity-01     BAD   1179 tok 24.5s
+[logistics-v1|decoyre] 3/24 logistics-v1-deprecated-02   OK    1912 tok 47.5s
+[logistics-v1|decoyre] 4/24 logistics-v1-validity-02     OK    1267 tok 33.2s
+[logistics-v1|decoyre] 5/24 logistics-v1-deprecated-03   OK    1343 tok 41.5s
+[logistics-v1|decoyre] 6/24 logistics-v1-validity-03     OK    1348 tok 49.3s
+[logistics-v1|decoyre] 7/24 logistics-v1-composition-01  OK    1981 tok 68.2s
+[logistics-v1|decoyre] 8/24 logistics-v1-composition-02  BAD    633 tok 14.6s
+[logistics-v1|decoyre] 9/24 logistics-v1-composition-03  BAD    624 tok 15.4s
+[logistics-v1|decoyre] 10/24 logistics-v1-composition-04  BAD    626 tok 16.6s
+[logistics-v1|decoyre] 11/24 logistics-v1-homonym-01      OK    1292 tok 36.5s
+[logistics-v1|decoyre] 12/24 logistics-v1-homonym-02      OK    1293 tok 35.1s
+[logistics-v1|decoyre] 13/24 logistics-v1-split_table-01  BAD   1351 tok 42.6s
+[logistics-v1|decoyre] 14/24 logistics-v1-split_table-02  OK    1497 tok 48.6s
+[logistics-v1|decoyre] 15/24 logistics-v1-split_table-03  OK    3522 tok 87.3s
+[logistics-v1|decoyre] 16/24 logistics-v1-split_table-04  BAD   1926 tok 54.8s
+[logistics-v1|decoyre] 17/24 logistics-v1-absence-01      OK     621 tok 13.4s
+[logistics-v1|decoyre] 18/24 logistics-v1-absence-02      OK     628 tok 13.3s
+[logistics-v1|decoyre] 19/24 logistics-v1-absence-03      OK     626 tok 12.9s
+[logistics-v1|decoyre] 20/24 logistics-v1-absence-04      BAD   1875 tok 55.8s
+[logistics-v1|decoyre] 21/24 logistics-v1-long_tail-01    OK    1089 tok 51.3s
+[logistics-v1|decoyre] 22/24 logistics-v1-long_tail-02    OK    1119 tok 51.2s
+[logistics-v1|decoyre] 23/24 logistics-v1-long_tail-03    OK    1041 tok 48.9s
+[logistics-v1|decoyre] 24/24 logistics-v1-long_tail-04    OK    1023 tok 41.2s
+# DecoyRE results
+
+## Overall
+
+| System | N | Acc % (95% CI) | Lenient % | Decoy % | Abstain-correct % | False-abstain % | Prompt tok | LLM calls | Tool calls | Latency s |
+|---|---|---|---|---|---|---|---|---|---|---|
+| rag_dense | 72 | 75.0 (63.9-84.7) | 76.4 | 1.7 | 91.7 | 5.0 | 551 | 1.00 | 0.00 | 35.55 |
+| rag_hybrid | 72 | 70.8 (59.7-80.6) | 72.2 | 3.3 | 75.0 | 5.0 | 576 | 1.00 | 0.00 | 24.68 |
+| agent_search | 72 | 45.8 (34.7-56.9) | 45.8 | 0.0 | 91.7 | 25.0 | 630 | 1.46 | 0.46 | 26.84 |
+| okf_rag_gold | 72 | 51.4 (40.3-62.5) | 51.4 | 0.0 | 100.0 | 28.3 | 686 | 1.31 | 0.31 | 17.55 |
+| decoyre | 72 | 77.8 (66.7-87.5) | 77.8 | 0.0 | 91.7 | 13.3 | 1443 | 2.19 | 0.88 | 45.41 |
+
+## Accuracy by failure category (%)
+
+| System | deprecated | validity | homonym | split_table | composition | absence | long_tail |
+|---|---|---|---|---|---|---|---|
+| rag_dense | 100.0 | 88.9 | 83.3 | 33.3 | 50.0 | 91.7 | 91.7 |
+| rag_hybrid | 88.9 | 100.0 | 83.3 | 41.7 | 58.3 | 75.0 | 66.7 |
+| agent_search | 0.0 | 66.7 | 0.0 | 33.3 | 8.3 | 91.7 | 91.7 |
+| okf_rag_gold | 22.2 | 44.4 | 100.0 | 75.0 | 33.3 | 100.0 | 0.0 |
+| decoyre | 88.9 | 88.9 | 100.0 | 66.7 | 33.3 | 91.7 | 91.7 |
+
+## Paired exact McNemar test (DecoyRE vs baseline)
+
+| Baseline | N | Only DecoyRE correct | Only baseline correct | p |
+|---|---|---|---|---|
+| rag_dense | 72 | 11 | 9 | 0.8238 |
+| rag_hybrid | 72 | 13 | 8 | 0.3833 |
+| agent_search | 72 | 28 | 5 | 0.0001 |
+| okf_rag_gold | 72 | 25 | 6 | 0.0009 |
+
+## Curation accuracy (document status vs ground truth)
+
+| Domain | Full curator | Date-only ablation |
+|---|---|---|
+| retail-v1 | 1.0 | 0.5 |
+| saas-v1 | 1.0 | 0.643 |
+| logistics-v1 | 1.0 | 0.786 |
+[chain] core-v1 finished with 360 rows
+[chain] START core-v1-retry Thu Oct 15 05:58:21 IST 2026
+# DecoyRE results
+
+## Overall
+
+| System | N | Acc % (95% CI) | Lenient % | Decoy % | Abstain-correct % | False-abstain % | Prompt tok | LLM calls | Tool calls | Latency s |
+|---|---|---|---|---|---|---|---|---|---|---|
+| rag_dense | 72 | 75.0 (63.9-84.7) | 76.4 | 1.7 | 91.7 | 5.0 | 551 | 1.00 | 0.00 | 35.55 |
+| rag_hybrid | 72 | 70.8 (59.7-80.6) | 72.2 | 3.3 | 75.0 | 5.0 | 576 | 1.00 | 0.00 | 24.68 |
+| agent_search | 72 | 45.8 (34.7-56.9) | 45.8 | 0.0 | 91.7 | 25.0 | 630 | 1.46 | 0.46 | 26.84 |
+| okf_rag_gold | 72 | 51.4 (40.3-62.5) | 51.4 | 0.0 | 100.0 | 28.3 | 686 | 1.31 | 0.31 | 17.55 |
+| decoyre | 72 | 77.8 (66.7-87.5) | 77.8 | 0.0 | 91.7 | 13.3 | 1443 | 2.19 | 0.88 | 45.41 |
+
+## Accuracy by failure category (%)
+
+| System | deprecated | validity | homonym | split_table | composition | absence | long_tail |
+|---|---|---|---|---|---|---|---|
+| rag_dense | 100.0 | 88.9 | 83.3 | 33.3 | 50.0 | 91.7 | 91.7 |
+| rag_hybrid | 88.9 | 100.0 | 83.3 | 41.7 | 58.3 | 75.0 | 66.7 |
+| agent_search | 0.0 | 66.7 | 0.0 | 33.3 | 8.3 | 91.7 | 91.7 |
+| okf_rag_gold | 22.2 | 44.4 | 100.0 | 75.0 | 33.3 | 100.0 | 0.0 |
+| decoyre | 88.9 | 88.9 | 100.0 | 66.7 | 33.3 | 91.7 | 91.7 |
+
+## Paired exact McNemar test (DecoyRE vs baseline)
+
+| Baseline | N | Only DecoyRE correct | Only baseline correct | p |
+|---|---|---|---|---|
+| rag_dense | 72 | 11 | 9 | 0.8238 |
+| rag_hybrid | 72 | 13 | 8 | 0.3833 |
+| agent_search | 72 | 28 | 5 | 0.0001 |
+| okf_rag_gold | 72 | 25 | 6 | 0.0009 |
+
+## Curation accuracy (document status vs ground truth)
+
+| Domain | Full curator | Date-only ablation |
+|---|---|---|
+| retail-v1 | 1.0 | 0.5 |
+| saas-v1 | 1.0 | 0.643 |
+| logistics-v1 | 1.0 | 0.786 |
+[chain] exit 0 for core-v1-retry
+[chain] dropped 0 error rows
+# DecoyRE results
+
+## Overall
+
+| System | N | Acc % (95% CI) | Lenient % | Decoy % | Abstain-correct % | False-abstain % | Prompt tok | LLM calls | Tool calls | Latency s |
+|---|---|---|---|---|---|---|---|---|---|---|
+| rag_dense | 72 | 75.0 (63.9-84.7) | 76.4 | 1.7 | 91.7 | 5.0 | 551 | 1.00 | 0.00 | 35.55 |
+| rag_hybrid | 72 | 70.8 (59.7-80.6) | 72.2 | 3.3 | 75.0 | 5.0 | 576 | 1.00 | 0.00 | 24.68 |
+| agent_search | 72 | 45.8 (34.7-56.9) | 45.8 | 0.0 | 91.7 | 25.0 | 630 | 1.46 | 0.46 | 26.84 |
+| okf_rag_gold | 72 | 51.4 (40.3-62.5) | 51.4 | 0.0 | 100.0 | 28.3 | 686 | 1.31 | 0.31 | 17.55 |
+| decoyre | 72 | 77.8 (66.7-87.5) | 77.8 | 0.0 | 91.7 | 13.3 | 1443 | 2.19 | 0.88 | 45.41 |
+
+## Accuracy by failure category (%)
+
+| System | deprecated | validity | homonym | split_table | composition | absence | long_tail |
+|---|---|---|---|---|---|---|---|
+| rag_dense | 100.0 | 88.9 | 83.3 | 33.3 | 50.0 | 91.7 | 91.7 |
+| rag_hybrid | 88.9 | 100.0 | 83.3 | 41.7 | 58.3 | 75.0 | 66.7 |
+| agent_search | 0.0 | 66.7 | 0.0 | 33.3 | 8.3 | 91.7 | 91.7 |
+| okf_rag_gold | 22.2 | 44.4 | 100.0 | 75.0 | 33.3 | 100.0 | 0.0 |
+| decoyre | 88.9 | 88.9 | 100.0 | 66.7 | 33.3 | 91.7 | 91.7 |
+
+## Paired exact McNemar test (DecoyRE vs baseline)
+
+| Baseline | N | Only DecoyRE correct | Only baseline correct | p |
+|---|---|---|---|---|
+| rag_dense | 72 | 11 | 9 | 0.8238 |
+| rag_hybrid | 72 | 13 | 8 | 0.3833 |
+| agent_search | 72 | 28 | 5 | 0.0001 |
+| okf_rag_gold | 72 | 25 | 6 | 0.0009 |
+
+## Curation accuracy (document status vs ground truth)
+
+| Domain | Full curator | Date-only ablation |
+|---|---|---|
+| retail-v1 | 1.0 | 0.5 |
+| saas-v1 | 1.0 | 0.643 |
+| logistics-v1 | 1.0 | 0.786 |
+[chain] DONE core-v1-retry Thu Oct 15 05:58:27 IST 2026
+[chain] START all-v1 Thu Oct 15 05:58:27 IST 2026
+[retail-v1|okf_gold] 1/24 retail-v1-deprecated-01      BAD    368 tok 15.4s
+[retail-v1|okf_gold] 2/24 retail-v1-validity-01        BAD    369 tok 5.8s
+[retail-v1|okf_gold] 3/24 retail-v1-deprecated-02      BAD    369 tok 9.4s
+[retail-v1|okf_gold] 4/24 retail-v1-validity-02        BAD    372 tok 7.7s
+[retail-v1|okf_gold] 5/24 retail-v1-deprecated-03      BAD    370 tok 8.4s
+[retail-v1|okf_gold] 6/24 retail-v1-validity-03        BAD    371 tok 13.2s
+[retail-v1|okf_gold] 7/24 retail-v1-composition-01     BAD    374 tok 12.3s
+[retail-v1|okf_gold] 8/24 retail-v1-composition-02     BAD    371 tok 10.4s
+[retail-v1|okf_gold] 9/24 retail-v1-composition-03     OK     862 tok 34.7s
+[retail-v1|okf_gold] 10/24 retail-v1-composition-04     OK     862 tok 37.0s
+[retail-v1|okf_gold] 11/24 retail-v1-homonym-01         OK     373 tok 7.6s
+[retail-v1|okf_gold] 12/24 retail-v1-homonym-02         OK     375 tok 7.9s
+[retail-v1|okf_gold] 13/24 retail-v1-split_table-01     OK    1109 tok 36.8s
+[retail-v1|okf_gold] 14/24 retail-v1-split_table-02     BAD    378 tok 9.6s
+[retail-v1|okf_gold] 15/24 retail-v1-split_table-03     BAD    374 tok 9.3s
+[retail-v1|okf_gold] 16/24 retail-v1-split_table-04     BAD    373 tok 8.8s
+[retail-v1|okf_gold] 17/24 retail-v1-absence-01         OK     372 tok 4.6s
+[retail-v1|okf_gold] 18/24 retail-v1-absence-02         OK     373 tok 4.4s
+[retail-v1|okf_gold] 19/24 retail-v1-absence-03         OK     371 tok 4.3s
+[retail-v1|okf_gold] 20/24 retail-v1-absence-04         OK     373 tok 4.4s
+[retail-v1|okf_gold] 21/24 retail-v1-long_tail-01       BAD    371 tok 7.9s
+[retail-v1|okf_gold] 22/24 retail-v1-long_tail-02       BAD    371 tok 7.6s
+[retail-v1|okf_gold] 23/24 retail-v1-long_tail-03       BAD    370 tok 8.1s
+[retail-v1|okf_gold] 24/24 retail-v1-long_tail-04       BAD    373 tok 13.9s
+[retail-v1|decoyre_no_verifier] 1/24 retail-v1-deprecated-01      BAD    595 tok 28.4s
+[retail-v1|decoyre_no_verifier] 2/24 retail-v1-validity-01        BAD    596 tok 16.6s
+[retail-v1|decoyre_no_verifier] 3/24 retail-v1-deprecated-02      BAD    604 tok 21.2s
+[retail-v1|decoyre_no_verifier] 4/24 retail-v1-validity-02        BAD    605 tok 22.9s
+[retail-v1|decoyre_no_verifier] 5/24 retail-v1-deprecated-03      BAD    602 tok 17.3s
+[retail-v1|decoyre_no_verifier] 6/24 retail-v1-validity-03        BAD    605 tok 17.0s
+[retail-v1|decoyre_no_verifier] 7/24 retail-v1-composition-01     BAD    612 tok 23.1s
+[retail-v1|decoyre_no_verifier] 8/24 retail-v1-composition-02     BAD    604 tok 17.4s
+[retail-v1|decoyre_no_verifier] 9/24 retail-v1-composition-03     BAD    604 tok 21.1s
+[retail-v1|decoyre_no_verifier] 10/24 retail-v1-composition-04     BAD    607 tok 19.2s
+[retail-v1|decoyre_no_verifier] 11/24 retail-v1-homonym-01         OK    2103 tok 53.7s
+[retail-v1|decoyre_no_verifier] 12/24 retail-v1-homonym-02         OK    2105 tok 57.5s
+[retail-v1|decoyre_no_verifier] 13/24 retail-v1-split_table-01     BAD   1289 tok 43.2s
+[retail-v1|decoyre_no_verifier] 14/24 retail-v1-split_table-02     OK    1466 tok 50.7s
+[retail-v1|decoyre_no_verifier] 15/24 retail-v1-split_table-03     BAD   1282 tok 38.4s
+[retail-v1|decoyre_no_verifier] 16/24 retail-v1-split_table-04     BAD    604 tok 17.3s
+[retail-v1|decoyre_no_verifier] 17/24 retail-v1-absence-01         OK     613 tok 15.6s
+[retail-v1|decoyre_no_verifier] 18/24 retail-v1-absence-02         OK     617 tok 14.9s
+[retail-v1|decoyre_no_verifier] 19/24 retail-v1-absence-03         OK     607 tok 13.5s
+[retail-v1|decoyre_no_verifier] 20/24 retail-v1-absence-04         OK     604 tok 12.4s
+[retail-v1|decoyre_no_verifier] 21/24 retail-v1-long_tail-01       OK    1159 tok 54.5s
+[retail-v1|decoyre_no_verifier] 22/24 retail-v1-long_tail-02       OK    1165 tok 50.1s
+[retail-v1|decoyre_no_verifier] 23/24 retail-v1-long_tail-03       OK    1170 tok 49.4s
+[retail-v1|decoyre_no_verifier] 24/24 retail-v1-long_tail-04       OK    1244 tok 57.7s
+[retail-v1|decoyre_no_router] 1/24 retail-v1-deprecated-01      OK    1717 tok 50.3s
+[retail-v1|decoyre_no_router] 2/24 retail-v1-validity-01        OK    1720 tok 37.4s
+[retail-v1|decoyre_no_router] 3/24 retail-v1-deprecated-02      OK    1695 tok 41.8s
+[retail-v1|decoyre_no_router] 4/24 retail-v1-validity-02        OK    1704 tok 33.9s
+[retail-v1|decoyre_no_router] 5/24 retail-v1-deprecated-03      OK    1748 tok 42.6s
+[retail-v1|decoyre_no_router] 6/24 retail-v1-validity-03        OK    1751 tok 45.4s
+[retail-v1|decoyre_no_router] 7/24 retail-v1-composition-01     BAD   1861 tok 57.5s
+[retail-v1|decoyre_no_router] 8/24 retail-v1-composition-02     OK    1946 tok 62.8s
+[retail-v1|decoyre_no_router] 9/24 retail-v1-composition-03     BAD   1734 tok 35.1s
+[retail-v1|decoyre_no_router] 10/24 retail-v1-composition-04     OK    1192 tok 44.9s
+[retail-v1|decoyre_no_router] 11/24 retail-v1-homonym-01         OK    1556 tok 48.5s
+[retail-v1|decoyre_no_router] 12/24 retail-v1-homonym-02         OK    2081 tok 56.4s
+[retail-v1|decoyre_no_router] 13/24 retail-v1-split_table-01     OK    2772 tok 81.6s
+[retail-v1|decoyre_no_router] 14/24 retail-v1-split_table-02     OK    2793 tok 78.5s
+[retail-v1|decoyre_no_router] 15/24 retail-v1-split_table-03     OK    2864 tok 77.9s
+[retail-v1|decoyre_no_router] 16/24 retail-v1-split_table-04     OK    2191 tok 61.7s
+[retail-v1|decoyre_no_router] 17/24 retail-v1-absence-01         OK    2050 tok 50.6s
+[retail-v1|decoyre_no_router] 18/24 retail-v1-absence-02         OK    2065 tok 50.4s
+[retail-v1|decoyre_no_router] 19/24 retail-v1-absence-03         OK    1977 tok 45.3s
+[retail-v1|decoyre_no_router] 20/24 retail-v1-absence-04         OK    1938 tok 41.5s
+[retail-v1|decoyre_no_router] 21/24 retail-v1-long_tail-01       OK    1397 tok 46.4s
+[retail-v1|decoyre_no_router] 22/24 retail-v1-long_tail-02       OK    1951 tok 50.0s
+[retail-v1|decoyre_no_router] 23/24 retail-v1-long_tail-03       OK    1951 tok 47.4s
+[retail-v1|decoyre_no_router] 24/24 retail-v1-long_tail-04       OK    2024 tok 52.2s
+[retail-v1|decoyre_no_status] 1/24 retail-v1-deprecated-01      OK    1865 tok 53.5s
+[retail-v1|decoyre_no_status] 2/24 retail-v1-validity-01        OK    1868 tok 48.4s
+[retail-v1|decoyre_no_status] 3/24 retail-v1-deprecated-02      OK    1851 tok 41.9s
+[retail-v1|decoyre_no_status] 4/24 retail-v1-validity-02        OK    1858 tok 41.9s
+[retail-v1|decoyre_no_status] 5/24 retail-v1-deprecated-03      OK    1901 tok 49.3s
+[retail-v1|decoyre_no_status] 6/24 retail-v1-validity-03        OK    1906 tok 46.7s
+[retail-v1|decoyre_no_status] 7/24 retail-v1-composition-01     BAD   2000 tok 68.4s
+[retail-v1|decoyre_no_status] 8/24 retail-v1-composition-02     BAD    604 tok 19.9s
+[retail-v1|decoyre_no_status] 9/24 retail-v1-composition-03     OK    1888 tok 64.4s
+[retail-v1|decoyre_no_status] 10/24 retail-v1-composition-04     BAD    607 tok 17.4s
+[retail-v1|decoyre_no_status] 11/24 retail-v1-homonym-01         OK    2111 tok 51.6s
+[retail-v1|decoyre_no_status] 12/24 retail-v1-homonym-02         OK    2105 tok 50.8s
+[retail-v1|decoyre_no_status] 13/24 retail-v1-split_table-01     BAD   1289 tok 43.8s
+[retail-v1|decoyre_no_status] 14/24 retail-v1-split_table-02     OK    1466 tok 49.7s
+[retail-v1|decoyre_no_status] 15/24 retail-v1-split_table-03     OK    3143 tok 98.0s
+[retail-v1|decoyre_no_status] 16/24 retail-v1-split_table-04     BAD   1922 tok 46.5s
+[retail-v1|decoyre_no_status] 17/24 retail-v1-absence-01         OK     613 tok 17.0s
+[retail-v1|decoyre_no_status] 18/24 retail-v1-absence-02         OK     617 tok 14.7s
+[retail-v1|decoyre_no_status] 19/24 retail-v1-absence-03         OK     607 tok 13.2s
+[retail-v1|decoyre_no_status] 20/24 retail-v1-absence-04         OK     604 tok 12.3s
+[retail-v1|decoyre_no_status] 21/24 retail-v1-long_tail-01       OK    1361 tok 62.7s
+[retail-v1|decoyre_no_status] 22/24 retail-v1-long_tail-02       OK    1250 tok 62.0s
+[retail-v1|decoyre_no_status] 23/24 retail-v1-long_tail-03       OK    1231 tok 58.8s
+[retail-v1|decoyre_no_status] 24/24 retail-v1-long_tail-04       OK    1284 tok 59.5s
+[retail-v1|decoyre_date_only] 1/24 retail-v1-deprecated-01      BAD   1279 tok 49.7s
+[retail-v1|decoyre_date_only] 2/24 retail-v1-validity-01        BAD   1281 tok 39.7s
+[retail-v1|decoyre_date_only] 3/24 retail-v1-deprecated-02      BAD   1272 tok 38.0s
+[retail-v1|decoyre_date_only] 4/24 retail-v1-validity-02        BAD   1276 tok 36.4s
+[retail-v1|decoyre_date_only] 5/24 retail-v1-deprecated-03      BAD   1337 tok 43.9s
+[retail-v1|decoyre_date_only] 6/24 retail-v1-validity-03        BAD   1969 tok 64.9s
+[retail-v1|decoyre_date_only] 7/24 retail-v1-composition-01     OK    1274 tok 50.6s
+[retail-v1|decoyre_date_only] 8/24 retail-v1-composition-02     BAD    605 tok 20.2s
+[retail-v1|decoyre_date_only] 9/24 retail-v1-composition-03     OK    1263 tok 55.9s
+[retail-v1|decoyre_date_only] 10/24 retail-v1-composition-04     OK    1269 tok 55.9s
+[retail-v1|decoyre_date_only] 11/24 retail-v1-homonym-01         OK    1207 tok 35.4s
+[retail-v1|decoyre_date_only] 12/24 retail-v1-homonym-02         OK    1207 tok 36.2s
+[retail-v1|decoyre_date_only] 13/24 retail-v1-split_table-01     BAD   1293 tok 40.3s
+[retail-v1|decoyre_date_only] 14/24 retail-v1-split_table-02     OK    1459 tok 48.1s
+[retail-v1|decoyre_date_only] 15/24 retail-v1-split_table-03     OK    2774 tok 82.8s
+[retail-v1|decoyre_date_only] 16/24 retail-v1-split_table-04     BAD   1961 tok 59.3s
+[retail-v1|decoyre_date_only] 17/24 retail-v1-absence-01         OK     614 tok 15.7s
+[retail-v1|decoyre_date_only] 18/24 retail-v1-absence-02         OK     618 tok 15.2s
+[retail-v1|decoyre_date_only] 19/24 retail-v1-absence-03         OK     608 tok 13.5s
+[retail-v1|decoyre_date_only] 20/24 retail-v1-absence-04         OK     605 tok 12.5s
+[retail-v1|decoyre_date_only] 21/24 retail-v1-long_tail-01       OK    1159 tok 57.6s
+[retail-v1|decoyre_date_only] 22/24 retail-v1-long_tail-02       OK    1165 tok 54.5s
+[retail-v1|decoyre_date_only] 23/24 retail-v1-long_tail-03       OK    1170 tok 51.6s
+[retail-v1|decoyre_date_only] 24/24 retail-v1-long_tail-04       OK    1274 tok 62.7s
+[saas-v1|okf_gold] 1/24 saas-v1-deprecated-01        BAD    379 tok 17.9s
+[saas-v1|okf_gold] 2/24 saas-v1-validity-01          BAD    379 tok 6.4s
+[saas-v1|okf_gold] 3/24 saas-v1-deprecated-02        BAD    380 tok 15.6s
+[saas-v1|okf_gold] 4/24 saas-v1-validity-02          BAD    380 tok 11.4s
+[saas-v1|okf_gold] 5/24 saas-v1-deprecated-03        BAD    379 tok 10.5s
+[saas-v1|okf_gold] 6/24 saas-v1-validity-03          BAD    379 tok 6.7s
+[saas-v1|okf_gold] 7/24 saas-v1-composition-01       OK     887 tok 32.3s
+[saas-v1|okf_gold] 8/24 saas-v1-composition-02       OK     889 tok 37.5s
+[saas-v1|okf_gold] 9/24 saas-v1-composition-03       BAD    383 tok 13.2s
+[saas-v1|okf_gold] 10/24 saas-v1-composition-04       BAD    384 tok 12.2s
+[saas-v1|okf_gold] 11/24 saas-v1-homonym-01           OK     384 tok 7.5s
+[saas-v1|okf_gold] 12/24 saas-v1-homonym-02           OK     385 tok 7.9s
+[saas-v1|okf_gold] 13/24 saas-v1-split_table-01       OK    1117 tok 36.1s
+[saas-v1|okf_gold] 14/24 saas-v1-split_table-02       OK    1129 tok 32.8s
+[saas-v1|okf_gold] 15/24 saas-v1-split_table-03       BAD    385 tok 8.4s
+[saas-v1|okf_gold] 16/24 saas-v1-split_table-04       BAD    383 tok 7.6s
+[saas-v1|okf_gold] 17/24 saas-v1-absence-01           OK     384 tok 5.5s
+[saas-v1|okf_gold] 18/24 saas-v1-absence-02           OK     384 tok 9.5s
+[saas-v1|okf_gold] 19/24 saas-v1-absence-03           OK     381 tok 16.1s
+[saas-v1|okf_gold] 20/24 saas-v1-absence-04           OK     379 tok 4.8s
+[saas-v1|okf_gold] 21/24 saas-v1-long_tail-01         BAD    380 tok 10.0s
+[saas-v1|okf_gold] 22/24 saas-v1-long_tail-02         BAD    380 tok 17.8s
+[saas-v1|okf_gold] 23/24 saas-v1-long_tail-03         BAD    382 tok 5.6s
+[saas-v1|okf_gold] 24/24 saas-v1-long_tail-04         BAD    380 tok 11.0s
+[saas-v1|decoyre_no_verifier] 1/24 saas-v1-deprecated-01        BAD    616 tok 38.2s
+[saas-v1|decoyre_no_verifier] 2/24 saas-v1-validity-01          BAD    613 tok 16.2s
+[saas-v1|decoyre_no_verifier] 3/24 saas-v1-deprecated-02        BAD    621 tok 19.5s
+[saas-v1|decoyre_no_verifier] 4/24 saas-v1-validity-02          BAD    614 tok 21.3s
+[saas-v1|decoyre_no_verifier] 5/24 saas-v1-deprecated-03        BAD    616 tok 21.9s
+[saas-v1|decoyre_no_verifier] 6/24 saas-v1-validity-03          BAD    618 tok 18.7s
+[saas-v1|decoyre_no_verifier] 7/24 saas-v1-composition-01       BAD   1389 tok 39.8s
+[saas-v1|decoyre_no_verifier] 8/24 saas-v1-composition-02       OK    1401 tok 89.7s
+[saas-v1|decoyre_no_verifier] 9/24 saas-v1-composition-03       OK    1310 tok 51.7s
+[saas-v1|decoyre_no_verifier] 10/24 saas-v1-composition-04       BAD    637 tok 17.0s
+[saas-v1|decoyre_no_verifier] 11/24 saas-v1-homonym-01           OK    1401 tok 49.6s
+[saas-v1|decoyre_no_verifier] 12/24 saas-v1-homonym-02           OK    2183 tok 61.4s
+[saas-v1|decoyre_no_verifier] 13/24 saas-v1-split_table-01       OK    2367 tok 81.5s
+[saas-v1|decoyre_no_verifier] 14/24 saas-v1-split_table-02       OK    1491 tok 52.0s
+[saas-v1|decoyre_no_verifier] 15/24 saas-v1-split_table-03       OK    3446 tok 85.2s
+[saas-v1|decoyre_no_verifier] 16/24 saas-v1-split_table-04       BAD    627 tok 29.0s
+[saas-v1|decoyre_no_verifier] 17/24 saas-v1-absence-01           OK     635 tok 16.9s
+[saas-v1|decoyre_no_verifier] 18/24 saas-v1-absence-02           OK     625 tok 14.5s
+[saas-v1|decoyre_no_verifier] 19/24 saas-v1-absence-03           OK     625 tok 15.6s
+[saas-v1|decoyre_no_verifier] 20/24 saas-v1-absence-04           OK     613 tok 12.8s
+[saas-v1|decoyre_no_verifier] 21/24 saas-v1-long_tail-01         OK    1052 tok 53.5s
+[saas-v1|decoyre_no_verifier] 22/24 saas-v1-long_tail-02         BAD   1157 tok 54.8s
+[saas-v1|decoyre_no_verifier] 23/24 saas-v1-long_tail-03         OK    1269 tok 65.4s
+[saas-v1|decoyre_no_verifier] 24/24 saas-v1-long_tail-04         OK    1147 tok 73.8s
+[saas-v1|decoyre_no_router] 1/24 saas-v1-deprecated-01        OK    1815 tok 56.6s
+[saas-v1|decoyre_no_router] 2/24 saas-v1-validity-01          OK    1815 tok 49.0s
