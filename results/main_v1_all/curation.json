@@ -1,0 +1,62 @@
+{
+ "retail-v1": {
+  "full": {
+   "evaluated": 14,
+   "correct": 14,
+   "accuracy": 1.0,
+   "errors": []
+  },
+  "date_only": {
+   "evaluated": 14,
+   "correct": 7,
+   "accuracy": 0.5,
+   "errors": [
+    "wiki/how-we-calculate-revenue.md",
+    "wiki/finance/revenue-finance-definition.md",
+    "wiki/how-we-count-active-customers.md",
+    "wiki/finance/active-customer-crm-definition.md",
+    "wiki/how-we-calculate-average-order-value.md",
+    "wiki/finance/aov-analytics-definition.md",
+    "schemas/orders_staging.md"
+   ]
+  }
+ },
+ "saas-v1": {
+  "full": {
+   "evaluated": 14,
+   "correct": 14,
+   "accuracy": 1.0,
+   "errors": []
+  },
+  "date_only": {
+   "evaluated": 14,
+   "correct": 9,
+   "accuracy": 0.643,
+   "errors": [
+    "wiki/how-we-calculate-churn-rate.md",
+    "wiki/finance/churn-revenue-churn-definition.md",
+    "wiki/how-we-count-daily-active-users.md",
+    "wiki/finance/dau-product-analytics-definition.md",
+    "schemas/subscriptions_staging.md"
+   ]
+  }
+ },
+ "logistics-v1": {
+  "full": {
+   "evaluated": 14,
+   "correct": 14,
+   "accuracy": 1.0,
+   "errors": []
+  },
+  "date_only": {
+   "evaluated": 14,
+   "correct": 11,
+   "accuracy": 0.786,
+   "errors": [
+    "wiki/how-we-calculate-on-time-delivery.md",
+    "wiki/finance/otd-operations-definition.md",
+    "schemas/shipments_staging.md"
+   ]
+  }
+ }
+}
