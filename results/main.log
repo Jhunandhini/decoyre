@@ -719,3 +719,14 @@
 [saas-v1|decoyre_date_only] 23/24 saas-v1-long_tail-03         OK    1233 tok 50.5s
 [saas-v1|decoyre_date_only] 24/24 saas-v1-long_tail-04         OK    1195 tok 56.5s
 [logistics-v1|okf_gold] 1/24 logistics-v1-deprecated-01   BAD    380 tok 15.4s
+[logistics-v1|okf_gold] 2/24 logistics-v1-validity-01     BAD    379 tok 8.5s
+[logistics-v1|okf_gold] 3/24 logistics-v1-deprecated-02   OK     885 tok 24.5s
+[logistics-v1|okf_gold] 4/24 logistics-v1-validity-02     OK     887 tok 21.0s
+[logistics-v1|okf_gold] 5/24 logistics-v1-deprecated-03   OK     893 tok 25.6s
+[logistics-v1|okf_gold] 6/24 logistics-v1-validity-03     OK     895 tok 28.1s
+[logistics-v1|okf_gold] 7/24 logistics-v1-composition-01  BAD    379 tok 15.0s
+[logistics-v1|okf_gold] 8/24 logistics-v1-composition-02  BAD    381 tok 9.5s
+[logistics-v1|okf_gold] 9/24 logistics-v1-composition-03  BAD    379 tok 9.1s
+[logistics-v1|okf_gold] 10/24 logistics-v1-composition-04  BAD    380 tok 13.1s
+[logistics-v1|okf_gold] 11/24 logistics-v1-homonym-01      OK     382 tok 9.4s
+[logistics-v1|okf_gold] 12/24 logistics-v1-homonym-02      OK     384 tok 9.7s
