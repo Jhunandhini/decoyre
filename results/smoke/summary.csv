@@ -1,0 +1,6 @@
+system,n,accuracy,ci_low,ci_high,lenient_accuracy,decoy_rate,correct_abstention,false_abstention,prompt_tokens,llm_calls,tool_calls,latency_s
+rag_dense,4,1.0,1.0,1.0,1.0,0.0,nan,0.0,494.5,1.0,0.0,38.836000000000006
+rag_hybrid,4,1.0,1.0,1.0,1.0,0.0,nan,0.0,531.0,1.0,0.0,25.359499999999997
+agent_search,4,0.5,0.0,1.0,0.5,0.0,nan,0.25,610.25,1.5,0.5,30.758000000000003
+okf_rag_gold,4,0.25,0.0,0.75,0.25,0.0,nan,0.0,578.0,1.25,0.25,19.57375
+decoyre,4,1.0,1.0,1.0,1.0,0.0,nan,0.0,1860.5,3.0,1.0,69.9875

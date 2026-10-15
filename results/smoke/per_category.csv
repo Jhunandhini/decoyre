@@ -1,0 +1,6 @@
+system,deprecated,validity,homonym,split_table,composition,absence,long_tail
+rag_dense,1.000,1.000,nan,nan,nan,nan,nan
+rag_hybrid,1.000,1.000,nan,nan,nan,nan,nan
+agent_search,0.000,1.000,nan,nan,nan,nan,nan
+okf_rag_gold,0.000,0.500,nan,nan,nan,nan,nan
+decoyre,1.000,1.000,nan,nan,nan,nan,nan
