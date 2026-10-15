@@ -1,0 +1,231 @@
+{
+ "docs": {
+  "decisions/adr-021-on-time-delivery.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-022-fleet-utilisation.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-023-cost-per-shipment.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-024-adr-on-high-value-pod.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-025-adr-on-night-shift-pay.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-026-shipments-v2.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "finance/claims-and-pod.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "finance/payroll-rules.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/all-hands-2025-q1.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/client-escalation-notes.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/driver-app-notes.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/fleet-safety-notes.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/hosur-hub-review.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/OPS-779.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/OPS-781.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/OPS-802.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/OPS-805.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/OPS-830.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/OPS-841.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "schemas/shipments.md": {
+   "status": "stale",
+   "superseded_by": [
+    "schemas/shipments_v2.md"
+   ],
+   "evidence": [
+    "older than schemas/shipments_v2.md"
+   ]
+  },
+  "schemas/shipments_legacy_tms.md": {
+   "status": "stale",
+   "superseded_by": [
+    "schemas/shipments_v2.md"
+   ],
+   "evidence": [
+    "older than schemas/shipments_v2.md"
+   ]
+  },
+  "schemas/shipments_staging.md": {
+   "status": "stale",
+   "superseded_by": [
+    "schemas/shipments_v2.md"
+   ],
+   "evidence": [
+    "older than schemas/shipments_v2.md"
+   ]
+  },
+  "schemas/shipments_v2.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/driver-onboarding.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "wiki/driver-overtime.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/finance/cost-per-shipment-finance-definition.md": {
+   "status": "stale",
+   "superseded_by": [
+    "wiki/how-we-calculate-cost-per-shipment.md"
+   ],
+   "evidence": [
+    "older than wiki/how-we-calculate-cost-per-shipment.md"
+   ]
+  },
+  "wiki/finance/fleet-utilisation-planning-definition.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/finance/otd-operations-definition.md": {
+   "status": "stale",
+   "superseded_by": [
+    "wiki/how-we-calculate-on-time-delivery.md"
+   ],
+   "evidence": [
+    "older than wiki/how-we-calculate-on-time-delivery.md"
+   ]
+  },
+  "wiki/how-we-calculate-cost-per-shipment.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/how-we-calculate-fleet-utilisation.md": {
+   "status": "stale",
+   "superseded_by": [
+    "wiki/finance/fleet-utilisation-planning-definition.md"
+   ],
+   "evidence": [
+    "older than wiki/finance/fleet-utilisation-planning-definition.md"
+   ]
+  },
+  "wiki/how-we-calculate-on-time-delivery.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/onboarding.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "wiki/proof-of-delivery-pod.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  }
+ },
+ "concepts": [
+  "definitions/cost-per-shipment",
+  "definitions/driver-overtime",
+  "definitions/fleet-utilisation",
+  "definitions/on-time-delivery",
+  "definitions/proof-of-delivery",
+  "schemas/shipments",
+  "schemas/shipments-tables",
+  "schemas/shipments_legacy_tms",
+  "schemas/shipments_staging",
+  "schemas/shipments_v2"
+ ],
+ "curator_tokens": 0,
+ "mode": "date_only",
+ "curation_accuracy": {
+  "evaluated": 14,
+  "correct": 9,
+  "accuracy": 0.643,
+  "errors": [
+   "wiki/how-we-calculate-on-time-delivery.md",
+   "wiki/finance/otd-operations-definition.md",
+   "wiki/how-we-calculate-cost-per-shipment.md",
+   "wiki/finance/cost-per-shipment-finance-definition.md",
+   "schemas/shipments_staging.md"
+  ]
+ }
+}

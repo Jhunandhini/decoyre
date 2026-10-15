@@ -1,0 +1,224 @@
+{
+ "docs": {
+  "decisions/adr-014-revenue.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-015-active-customer.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-016-average-order-value.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-017-adr-on-loyalty-exclusions.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-018-adr-on-rural-delivery-sla.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "declared authoritative by notes/ops-weekly-notes-on-sla-clock.md"
+   ]
+  },
+  "decisions/adr-019-orders-v2.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "finance/loyalty-liability-accounting.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "finance/sla-penalty-calculation.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/all-hands-2025-q1.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/crm-sync-meeting-notes.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/expansion-brainstorm.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/ops-weekly-notes-on-sla-clock.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/q3-offsite-notes.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/TCK-2231.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/TCK-2232.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/TCK-2299.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/TCK-2307.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/TCK-2350.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/TCK-2410.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "schemas/orders.md": {
+   "status": "stale",
+   "superseded_by": [],
+   "evidence": [
+    "not the declared current table"
+   ]
+  },
+  "schemas/orders_legacy_pos.md": {
+   "status": "deprecated",
+   "superseded_by": [
+    "schemas/orders_v2.md"
+   ],
+   "evidence": [
+    "deprecated by decisions/adr-019-orders-v2.md"
+   ]
+  },
+  "schemas/orders_staging.md": {
+   "status": "internal",
+   "superseded_by": [],
+   "evidence": [
+    "internal per decisions/adr-019-orders-v2.md"
+   ]
+  },
+  "schemas/orders_v2.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "declared authoritative by decisions/adr-019-orders-v2.md"
+   ]
+  },
+  "wiki/delivery-sla.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/finance/active-customer-crm-definition.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "declared authoritative by decisions/adr-015-active-customer.md"
+   ]
+  },
+  "wiki/finance/aov-analytics-definition.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "declared authoritative by decisions/adr-016-average-order-value.md"
+   ]
+  },
+  "wiki/finance/revenue-finance-definition.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "declared authoritative by decisions/adr-014-revenue.md"
+   ]
+  },
+  "wiki/how-we-calculate-average-order-value.md": {
+   "status": "deprecated",
+   "superseded_by": [
+    "wiki/finance/aov-analytics-definition.md"
+   ],
+   "evidence": [
+    "self-marker",
+    "deprecated by decisions/adr-016-average-order-value.md"
+   ]
+  },
+  "wiki/how-we-calculate-revenue.md": {
+   "status": "deprecated",
+   "superseded_by": [
+    "wiki/finance/revenue-finance-definition.md"
+   ],
+   "evidence": [
+    "deprecated by decisions/adr-014-revenue.md"
+   ]
+  },
+  "wiki/how-we-count-active-customers.md": {
+   "status": "deprecated",
+   "superseded_by": [
+    "wiki/finance/active-customer-crm-definition.md"
+   ],
+   "evidence": [
+    "deprecated by decisions/adr-015-active-customer.md"
+   ]
+  },
+  "wiki/loyalty-points.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/onboarding.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "wiki/warehouse-shift-handbook.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  }
+ },
+ "concepts": [
+  "definitions/active-customer",
+  "definitions/average-order-value",
+  "definitions/delivery-sla",
+  "definitions/loyalty-points",
+  "definitions/revenue",
+  "schemas/orders",
+  "schemas/orders-tables",
+  "schemas/orders_legacy_pos",
+  "schemas/orders_staging",
+  "schemas/orders_v2"
+ ],
+ "curator_tokens": 7265,
+ "mode": "full",
+ "curation_accuracy": {
+  "evaluated": 14,
+  "correct": 14,
+  "accuracy": 1.0,
+  "errors": []
+ }
+}

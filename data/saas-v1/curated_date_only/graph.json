@@ -1,0 +1,231 @@
+{
+ "docs": {
+  "decisions/adr-014-churn-rate.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-015-daily-active-users.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-016-csat.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-017-adr-on-mrr-and-trials.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-018-adr-on-sql-demo-requirement.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "decisions/adr-019-subscriptions-v3.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "finance/multi-currency-reporting.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "finance/pipeline-attribution.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/all-hands-2025-q1.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/billing-retro.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/finance-sync-on-annual-plans.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/marketing-ops-notes.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "notes/security-roadmap.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/INC-0412.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/INC-0413.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/INC-0455.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/INC-0460.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/INC-0471.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "ops/tickets/INC-0490.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "schemas/subscriptions.md": {
+   "status": "stale",
+   "superseded_by": [
+    "schemas/subscriptions_v3.md"
+   ],
+   "evidence": [
+    "older than schemas/subscriptions_v3.md"
+   ]
+  },
+  "schemas/subscriptions_legacy_stripe.md": {
+   "status": "stale",
+   "superseded_by": [
+    "schemas/subscriptions_v3.md"
+   ],
+   "evidence": [
+    "older than schemas/subscriptions_v3.md"
+   ]
+  },
+  "schemas/subscriptions_staging.md": {
+   "status": "stale",
+   "superseded_by": [
+    "schemas/subscriptions_v3.md"
+   ],
+   "evidence": [
+    "older than schemas/subscriptions_v3.md"
+   ]
+  },
+  "schemas/subscriptions_v3.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/finance/churn-revenue-churn-definition.md": {
+   "status": "stale",
+   "superseded_by": [
+    "wiki/how-we-calculate-churn-rate.md"
+   ],
+   "evidence": [
+    "older than wiki/how-we-calculate-churn-rate.md"
+   ]
+  },
+  "wiki/finance/csat-support-quality-definition.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/finance/dau-product-analytics-definition.md": {
+   "status": "stale",
+   "superseded_by": [
+    "wiki/how-we-count-daily-active-users.md"
+   ],
+   "evidence": [
+    "older than wiki/how-we-count-daily-active-users.md"
+   ]
+  },
+  "wiki/how-we-calculate-churn-rate.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/how-we-calculate-csat.md": {
+   "status": "stale",
+   "superseded_by": [
+    "wiki/finance/csat-support-quality-definition.md"
+   ],
+   "evidence": [
+    "older than wiki/finance/csat-support-quality-definition.md"
+   ]
+  },
+  "wiki/how-we-count-daily-active-users.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/mrr-monthly-recurring-revenue.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  },
+  "wiki/onboarding.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "wiki/sales-faq.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": []
+  },
+  "wiki/sales-qualified-lead-sql.md": {
+   "status": "current",
+   "superseded_by": [],
+   "evidence": [
+    "latest dated document in topic"
+   ]
+  }
+ },
+ "concepts": [
+  "definitions/churn-rate",
+  "definitions/csat",
+  "definitions/daily-active-users",
+  "definitions/mrr",
+  "definitions/sales-qualified-lead",
+  "schemas/subscriptions",
+  "schemas/subscriptions-tables",
+  "schemas/subscriptions_legacy_stripe",
+  "schemas/subscriptions_staging",
+  "schemas/subscriptions_v3"
+ ],
+ "curator_tokens": 0,
+ "mode": "date_only",
+ "curation_accuracy": {
+  "evaluated": 14,
+  "correct": 9,
+  "accuracy": 0.643,
+  "errors": [
+   "wiki/how-we-calculate-churn-rate.md",
+   "wiki/finance/churn-revenue-churn-definition.md",
+   "wiki/how-we-count-daily-active-users.md",
+   "wiki/finance/dau-product-analytics-definition.md",
+   "schemas/subscriptions_staging.md"
+  ]
+ }
+}
